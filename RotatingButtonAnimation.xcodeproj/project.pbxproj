@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9F5652B1D6D4102005BA915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5652A1D6D4102005BA915 /* main.m */; };
+		F9F5652E1D6D4102005BA915 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5652D1D6D4102005BA915 /* AppDelegate.m */; };
+		F9F565311D6D4102005BA915 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F565301D6D4102005BA915 /* ViewController.m */; };
+		F9F565341D6D4102005BA915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F565321D6D4102005BA915 /* Main.storyboard */; };
+		F9F565361D6D4102005BA915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F565351D6D4102005BA915 /* Assets.xcassets */; };
+		F9F565391D6D4103005BA915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F565371D6D4103005BA915 /* LaunchScreen.storyboard */; };
+		F9F565461D6D414B005BA915 /* RotatingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F565451D6D414B005BA915 /* RotatingButton.m */; };
+		F9F565481D6D63C5005BA915 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F565471D6D63C5005BA915 /* normal.png */; };
+		F9F5654A1D6D63DE005BA915 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F565491D6D63DE005BA915 /* cancel.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9F565261D6D4102005BA915 /* RotatingButtonAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotatingButtonAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F5652A1D6D4102005BA915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9F5652C1D6D4102005BA915 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9F5652D1D6D4102005BA915 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9F5652F1D6D4102005BA915 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9F565301D6D4102005BA915 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9F565331D6D4102005BA915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9F565351D6D4102005BA915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9F565381D6D4103005BA915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9F5653A1D6D4103005BA915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F565441D6D414B005BA915 /* RotatingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatingButton.h; sourceTree = "<group>"; };
+		F9F565451D6D414B005BA915 /* RotatingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatingButton.m; sourceTree = "<group>"; };
+		F9F565471D6D63C5005BA915 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		F9F565491D6D63DE005BA915 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F565231D6D4102005BA915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9F5651D1D6D4102005BA915 = {
+			isa = PBXGroup;
+			children = (
+				F9F565281D6D4102005BA915 /* RotatingButtonAnimation */,
+				F9F565271D6D4102005BA915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F565271D6D4102005BA915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F565261D6D4102005BA915 /* RotatingButtonAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F565281D6D4102005BA915 /* RotatingButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F9F565431D6D414B005BA915 /* RotatingButton */,
+				F9F5652C1D6D4102005BA915 /* AppDelegate.h */,
+				F9F5652D1D6D4102005BA915 /* AppDelegate.m */,
+				F9F5652F1D6D4102005BA915 /* ViewController.h */,
+				F9F565301D6D4102005BA915 /* ViewController.m */,
+				F9F565321D6D4102005BA915 /* Main.storyboard */,
+				F9F565351D6D4102005BA915 /* Assets.xcassets */,
+				F9F565371D6D4103005BA915 /* LaunchScreen.storyboard */,
+				F9F5653A1D6D4103005BA915 /* Info.plist */,
+				F9F565291D6D4102005BA915 /* Supporting Files */,
+			);
+			path = RotatingButtonAnimation;
+			sourceTree = "<group>";
+		};
+		F9F565291D6D4102005BA915 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9F5652A1D6D4102005BA915 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9F565431D6D414B005BA915 /* RotatingButton */ = {
+			isa = PBXGroup;
+			children = (
+				F9F565441D6D414B005BA915 /* RotatingButton.h */,
+				F9F565451D6D414B005BA915 /* RotatingButton.m */,
+				F9F565471D6D63C5005BA915 /* normal.png */,
+				F9F565491D6D63DE005BA915 /* cancel.png */,
+			);
+			path = RotatingButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F565251D6D4102005BA915 /* RotatingButtonAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F5653D1D6D4103005BA915 /* Build configuration list for PBXNativeTarget "RotatingButtonAnimation" */;
+			buildPhases = (
+				F9F565221D6D4102005BA915 /* Sources */,
+				F9F565231D6D4102005BA915 /* Frameworks */,
+				F9F565241D6D4102005BA915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotatingButtonAnimation;
+			productName = RotatingButtonAnimation;
+			productReference = F9F565261D6D4102005BA915 /* RotatingButtonAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F5651E1D6D4102005BA915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = David;
+				TargetAttributes = {
+					F9F565251D6D4102005BA915 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F9F565211D6D4102005BA915 /* Build configuration list for PBXProject "RotatingButtonAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F5651D1D6D4102005BA915;
+			productRefGroup = F9F565271D6D4102005BA915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F565251D6D4102005BA915 /* RotatingButtonAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F565241D6D4102005BA915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F5654A1D6D63DE005BA915 /* cancel.png in Resources */,
+				F9F565391D6D4103005BA915 /* LaunchScreen.storyboard in Resources */,
+				F9F565361D6D4102005BA915 /* Assets.xcassets in Resources */,
+				F9F565341D6D4102005BA915 /* Main.storyboard in Resources */,
+				F9F565481D6D63C5005BA915 /* normal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F565221D6D4102005BA915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F565311D6D4102005BA915 /* ViewController.m in Sources */,
+				F9F5652E1D6D4102005BA915 /* AppDelegate.m in Sources */,
+				F9F5652B1D6D4102005BA915 /* main.m in Sources */,
+				F9F565461D6D414B005BA915 /* RotatingButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9F565321D6D4102005BA915 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F565331D6D4102005BA915 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9F565371D6D4103005BA915 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F565381D6D4103005BA915 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9F5653B1D6D4103005BA915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9F5653C1D6D4103005BA915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9F5653E1D6D4103005BA915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RotatingButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DDD.RotatingButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9F5653F1D6D4103005BA915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RotatingButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DDD.RotatingButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F565211D6D4102005BA915 /* Build configuration list for PBXProject "RotatingButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F5653B1D6D4103005BA915 /* Debug */,
+				F9F5653C1D6D4103005BA915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F5653D1D6D4103005BA915 /* Build configuration list for PBXNativeTarget "RotatingButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F5653E1D6D4103005BA915 /* Debug */,
+				F9F5653F1D6D4103005BA915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F5651E1D6D4102005BA915 /* Project object */;
+}
